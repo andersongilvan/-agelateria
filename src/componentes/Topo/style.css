@@ -1,0 +1,44 @@
+
+header {
+    background-color: #F9DB79;
+    
+}
+.limitar-secao {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.limitar-secao img {
+    width: 150px;
+}
+nav {
+    display: flex;
+    gap: 40px;
+    
+}
+.opcao-home,
+.opcao-sabores,
+.opcao-sobre {
+    text-decoration: none;
+    color: black;
+    font-weight:600;
+}
+
+@media  screen and (min-width:360px) and (max-width:412px) {
+    .limitar-secao {
+        max-width: 412px;        
+    }
+    nav {
+        display: flex;
+        gap: 15px;
+    }
+    .limitar-secao img {
+        width: 100px;
+        
+    }
+}
+
+
+

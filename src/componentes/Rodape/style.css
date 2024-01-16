@@ -1,0 +1,41 @@
+footer {
+    max-width: 1400px;
+    background-color: #000000;
+    color: aliceblue;
+}
+.limitar-largura {
+    max-width: 1024px;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-size: 10px;
+    
+}
+footer img {
+    width: 150px;
+}
+.container {
+    width: 150px;
+    padding: 10px;
+}
+.container-creditos {
+font-size: 10px;
+text-align: center;
+}
+
+
+@media  screen and (min-width:360px) and (max-width:412px) {
+    footer{
+        width: 100%;
+        
+    }
+    footer img {
+        width: 100px;
+    }
+    .container {
+        font-size: 8px;
+    }
+}
