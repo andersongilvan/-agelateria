@@ -32,9 +32,13 @@
 .container-texto {
   width: 50%;
   
+  
+  
 }
 .container-img img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .container-texto {
   text-align: center;
@@ -45,6 +49,10 @@
 }
 .container-texto p {
   padding: 20px;
+  font-family: 'Pacifico', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Satisfy', cursive;
+font-size: 25px;
 }
 .container-texto span {
   font-style: italic;
