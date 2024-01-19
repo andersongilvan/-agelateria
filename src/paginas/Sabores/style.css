@@ -1,7 +1,12 @@
+main {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
 .container-baner {
     width: 100%;
-    height: 100vh;
-   background: url(https://us.123rf.com/450wm/stockee/stockee2308/stockee230824614/211568085-casquinhas-de-sorvete-com-sorvete-de-sabores-diferentes-dentro-delas-exibidas-contra-um-fundo-preto.jpg?ver=6);
+    height: 70vh;
+   background-image: url(https://us.123rf.com/450wm/stockee/stockee2308/stockee230824614/211568085-casquinhas-de-sorvete-com-sorvete-de-sabores-diferentes-dentro-delas-exibidas-contra-um-fundo-preto.jpg?ver=6);
    background-repeat: no-repeat;
    background-size:cover;
    object-fit: cover;
@@ -80,5 +85,9 @@ font-size: 20px;
 }
 
 @media  screen and (max-width:425px) {
-    
+    .container-baner {
+        background-image: url(https://img.freepik.com/fotos-gratis/sorvete-derretendo-no-cone_23-2150373267.jpg);
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
 }

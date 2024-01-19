@@ -1,10 +1,7 @@
 
 header {
     background-color: #F9DB79;
-    width: 100%;
-    
-    
-    
+    width: 100%; 
 }
 .limitar-secao {
     max-width: 1024px;
@@ -24,13 +21,28 @@ nav {
     margin-bottom: 20px;
     
 }
+
+
 .opcao-home,
 .opcao-sabores,
 .opcao-sobre {
     text-decoration: none;
-    color: black;
+    
     font-weight:600;
 }
+.opcao-home {
+    color:#66E0CB;
+    text-shadow: 0 0  10px black;
+}
+.opcao-sabores {
+    color: lawngreen;
+    text-shadow: 0 0  10px black;
+}
+.opcao-sobre {
+    color: #501DBA;
+    text-shadow: 0 0  10px rgb(138, 103, 103);
+}
+
 
 @media  screen and (max-width:425px)  {
     .limitar-secao {

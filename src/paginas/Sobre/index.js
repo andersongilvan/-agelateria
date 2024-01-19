@@ -25,8 +25,7 @@ Venha se deliciar em um lugar onde a felicidade é servida em porções generosa
             </p>
         </div>
         <div className='box-duas-imagens'>
-            <img src=''></img>
-            <img src=''></img>
+            
         </div>
        </div>
 
