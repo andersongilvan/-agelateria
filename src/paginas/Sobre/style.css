@@ -24,7 +24,7 @@
 .secao-pagina-sobre
 .box-texto {
     max-width: 1000px;
-    height: 80vh;
+   
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -51,8 +51,3 @@ font-size: 30px;
     object-fit: cover;
 }
 
-@media screen and (max-width:780px) {
-    body {
-        font-size: 20px;
-    }
-}
