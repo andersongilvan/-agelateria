@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# A Gelateria - Projeto React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Descrição
+A Gelateria é um projeto React que simula um site para uma sorveteria online. Este projeto foi desenvolvido como parte do curso DevMedia Fullstack, utilizando `HTML`, ``CSS`` e ``React``, incluindo o uso de ``rotas`` para uma navegação mais dinâmica. O projeto é totalmente ``responsivo``, proporcionando uma experiência agradável em diversos dispositivos.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Tecnologias Utilizadas
+``React
+React Router
+HTML
+CSS (Design Responsivo)
+Pré-requisitos
+Node.js instalado
+NPM (Node Package Manager) instalado
+Instalação``
+Clone o repositório e instale as dependências necessárias.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## bash
+Copy code
+git clone https://github.com/andersongilvan/-agelateria
+cd a-gelateria
+npm install
+Como Usar
+Inicie o projeto localmente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
+Acesse http://localhost:3000 no seu navegador.
 
-### `npm test`
+## Estrutura de Diretórios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Copy code
+/src
+|-- /components
+|   |-- Header.js
+|   |-- ProductCard.js
+|   |-- ...
+|-- /pages
+|   |-- Home.js
+|   |-- Menu.js
+|   |-- ...
+|-- /routes
+|   |-- AppRouter.js
+|-- /public
+|   |-- index.html
+|-- ...
+## Estilo de Código
+Este projeto segue as diretrizes do ESLint e Prettier para manter um código limpo e consistente.
 
-### `npm run build`
+## Contribuição
+Se você quiser contribuir para a Gelateria, siga as instruções abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Faça um fork do projeto.
+Crie uma nova branch: git checkout -b feature/nova-feature.
+Faça as alterações e faça commit: git commit -m 'Adiciona nova feature'.
+Envie para o seu fork: git push origin feature/nova-feature.
+Abra um pull request.
+Testes
+Não há testes configurados neste projeto (ainda).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Licença
+Este projeto é distribuído sob a licença MIT.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contato
+Email: techandersongilvan@gmail.com
+Celular: (81) 99418-4584
 
-### `npm run eject`
+## Veja o site em vários tamanhos de telas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Alt text](<public/assets/mobile (6).png>)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Alt text](<public/assets/mobile (7).png>)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Alt text](<public/assets/mobile (8).png>)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Agradecimentos
+Agradecemos à DevMedia por proporcionar o curso Fullstack, que inspirou e forneceu os conhecimentos necessários para a criação da Gelateria. Um agradecimento especial aos instrutores e colegas de curso pela colaboração e apoio.
 
-### Code Splitting
+Este exemplo foi atualizado para incluir informações sobre o uso de rotas no projeto. Certifique-se de ajustar conforme necessário, dependendo da estrutura de rotas específica que você implementou em sua aplicação React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
