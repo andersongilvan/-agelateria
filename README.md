@@ -9,17 +9,17 @@ A Gelateria é um projeto React que simula um site para uma sorveteria online. E
 
 Tecnologias Utilizadas
 ``React
-React Router<br/>
-HTML<br/>
-CSS (Design Responsivo)<br/>
-Pré-requisitos<br/>
-Node.js instalado<br/>
-NPM (Node Package Manager) instalado<br/>
-Instalação``<br/>
+React Router
+HTML
+CSS (Design Responsivo)
+Pré-requisitos
+Node.js instalado
+NPM (Node Package Manager) instalado
+Instalação``
 Clone o repositório e instale as dependências necessárias.
 
 ## bash
-Copy code<br/>
+Copy code
 git clone https://github.com/andersongilvan/-agelateria
 cd a-gelateria
 npm install
