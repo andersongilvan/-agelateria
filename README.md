@@ -1,5 +1,7 @@
 # A Gelateria - Projeto React
 
+<https://sorveteria-artesanal-self.vercel.app/>
+
 # Descrição
 A Gelateria é um projeto React que simula um site para uma sorveteria online. Este projeto foi desenvolvido como parte do curso DevMedia Fullstack, utilizando `HTML`, ``CSS`` e ``React``, incluindo o uso de ``rotas`` para uma navegação mais dinâmica. O projeto é totalmente ``responsivo``, proporcionando uma experiência agradável em diversos dispositivos.
 
@@ -64,7 +66,7 @@ Não há testes configurados neste projeto (ainda).
 Este projeto é distribuído sob a licença MIT.
 
 ## Contato
-Email: techandersongilvan@gmail.com
+Email: techandersongilvan@gmail.com<br/>
 Celular: (81) 99418-4584
 
 ## Veja o site em vários tamanhos de telas
